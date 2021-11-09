@@ -444,7 +444,7 @@ const ftrol = {
                             itemCount : 123,
                             status: 1,
                             surface : 1,
-                            message: `${tampilUcapan} ${pushname}`, //Kasih namalu
+                            message: `${tampilUcapan} ${pushname}`, yudi
                             orderTitle: `${tampilUcapan} ${pushname}`,
                             thumbnail: dfrply, //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
@@ -626,7 +626,7 @@ options
 };
 
 const daftar1 = `Hai kak  ${pushname} ${tampilUcapan} \n\nSebelum Mengakses Bot Verify Terlebih Dahulu Ya `
-const daftar2 = '```Ketik Tombol Di Bawah Untuk Verify Kak```'
+const daftar2 = '```Klik Tombol Di Bawah Untuk Verify Kak```'
 const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `🗿DAFTAR🗿 `,},type: 1,},]
 
 const createSerial = (size) => {
@@ -1073,7 +1073,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =`S H E R L Y N N 🦈`
+menu =`S H E R L Y N N `
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'🦈SHOW MENU🦈'},type:1},
 {buttonId:`owner`,buttonText:{displayText:'🛐OWNER🛐'},type:1},
@@ -1105,7 +1105,7 @@ else if(menusimpel = true){
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
        menu = `┌───「 \`\`\`${NamaBot}\`\`\` 」
 │
-├ _Creator : *KurrXd* (CUMAN RECODE)
+├ _Creator : *yudiganzz* (CUMAN RECODE)
 ├ _Battery : ${baterai.battery}_
 ├ _Mode : ${publik ? 'Public' : 'Self'}_
 ├ _Total Hit : ${cmhit.length}_
@@ -1136,11 +1136,11 @@ case 'allmenu':
 stod = `${sender}`
        stst = await denz.getStatus(`${sender.split('@')[0]}@c.us`)
        nama = '🦈 S H E R L Y N N 🦈'
-       ownerJid = "6281220670449@s.whatsapp.net"
+       ownerJid = "62881037046507@s.whatsapp.net"
 				stst = stst.status == 401 ? '' : stst.status
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
 menunya = `╭─❒ 「 Bot Info 」 ❒
-├ _Creator : *KurrXd* (CUMAN RECODE)
+├ _Creator : *yudiganzz* (CUMAN RECODE)
 ├ _Battery : ${baterai.battery}_
 ├ _Mode : ${publik ? 'Public' : 'Self'}_
 ├ _Total Hit : ${cmhit.length}_
@@ -1477,7 +1477,7 @@ mhan = await denz.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const sendBtnVeryy = {
 imageMessage: mhan.message.imageMessage,
 contentText:`${jancok}`,
-footerText:'Terimakasih Sudah Mendaftar\n*_© SHERLYNN_*', 
+footerText:'Terimakasih Sudah Mendaftar\n*_© yudi_*', 
 buttons: gbutsan,
 headerType: 4
 }
